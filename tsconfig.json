@@ -11,8 +11,8 @@
     "preserveConstEnums": true,
     "sourceMap": true
   },
-  "files": [
-    "topics/type-predicates.ts",
-    "gotchas/indexed-access.ts"
+  "include": [
+    "topics/*.ts",
+    "gotchas/*.ts"
   ]
 }
