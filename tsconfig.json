@@ -4,6 +4,7 @@
     "module": "commonjs",
     "noEmitOnError": true,
     "noImplicitAny": true,
+    "noUncheckedIndexedAccess": true,
     "removeComments": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
@@ -11,6 +12,7 @@
     "sourceMap": true
   },
   "files": [
-    "foo.ts"
+    "topics/type-predicates.ts",
+    "gotchas/indexed-access.ts"
   ]
 }
