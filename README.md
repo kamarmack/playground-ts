@@ -1,6 +1,6 @@
 # ts-playground
 
-Playground created while reviewing the [TypeScript handbook](^1)
+Playground created while reviewing the [TypeScript handbook][1]
 
 ## Compilation
 
@@ -14,7 +14,7 @@ tsc
 
 #### Recommended starter files
 
-[Repo](^2)
+[Repo][2]
 
 #### Helpful flags
 
@@ -46,7 +46,7 @@ Values: `'node' | 'classic'`
 ###### strictNullChecks
 ###### strictPropertyInitialization
 ###### target
-The target setting changes which JS features are downleveled and which are left intact. Use the [lib](^3) table to see which ES has the features you need then choose a target.
+The target setting changes which JS features are downleveled and which are left intact. Use the [lib][3] table to see which ES has the features you need then choose a target.
 ###### traceResolution (use as compiler flag instead of config file)
 Provides insight in what happened during the module resolution process.
 ```console
@@ -56,6 +56,6 @@ tsc --traceResolution
 If types is specified, only packages listed will be included in the global scope. Example:
  `"types": ["node", "jest", "express"]`
 
-[^1]:https://www.typescriptlang.org/docs/handbook/intro.html
-[^2]:https://github.com/tsconfig/bases#centralized-recommendations-for-tsconfig-bases
-[^3]:https://www.typescriptlang.org/tsconfig#lib
+[1]:https://www.typescriptlang.org/docs/handbook/intro.html
+[2]:https://github.com/tsconfig/bases#centralized-recommendations-for-tsconfig-bases
+[3]:https://www.typescriptlang.org/tsconfig#lib
