@@ -10,10 +10,5 @@
     "sourceMap": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true
-  },
-  "include": [
-    "topics/*.ts",
-    "topics/modules/*.ts",
-    "gotchas/*.ts"
-  ]
+  }
 }
