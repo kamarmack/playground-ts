@@ -45,6 +45,8 @@ Values: `'node' | 'classic'`
 ###### sourceMap
 ###### strictNullChecks
 ###### strictPropertyInitialization
+###### target
+The target setting changes which JS features are downleveled and which are left intact. Use the [lib](^3) table to see which ES has the features you need then choose a target.
 ###### traceResolution (use as compiler flag instead of config file)
 Provides insight in what happened during the module resolution process.
 ```console
@@ -56,3 +58,4 @@ If types is specified, only packages listed will be included in the global scope
 
 [^1]:https://www.typescriptlang.org/docs/handbook/intro.html
 [^2]:https://github.com/tsconfig/bases#centralized-recommendations-for-tsconfig-bases
+[^3]:https://www.typescriptlang.org/tsconfig#lib
