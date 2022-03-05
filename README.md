@@ -2,11 +2,19 @@
 
 Playground created while reviewing the [TypeScript handbook](^1)
 
+## Compilation
+
 #### Generate js code
 
 ```console
 tsc
 ```
+
+## Config
+
+#### Recommended starter files
+
+[Repo](^2)
 
 #### Helpful flags
 
@@ -42,5 +50,9 @@ Provides insight in what happened during the module resolution process.
 ```console
 tsc --traceResolution
 ```
+###### types
+If types is specified, only packages listed will be included in the global scope. Example:
+ `"types": ["node", "jest", "express"]`
 
 [^1]:https://www.typescriptlang.org/docs/handbook/intro.html
+[^2]:https://github.com/tsconfig/bases#centralized-recommendations-for-tsconfig-bases
