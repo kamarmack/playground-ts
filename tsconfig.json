@@ -5,11 +5,11 @@
     "noEmitOnError": true,
     "noImplicitAny": true,
     "noUncheckedIndexedAccess": true,
-    "removeComments": true,
-    "strictNullChecks": true,
-    "strictPropertyInitialization": true,
     "preserveConstEnums": true,
-    "sourceMap": true
+    "removeComments": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true
   },
   "include": [
     "topics/*.ts",
