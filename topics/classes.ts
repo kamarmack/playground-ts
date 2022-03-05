@@ -32,7 +32,7 @@ class ReadGreet {
 
 // ## `this` peculiarities
 class MyClass {
-  name = "MyClass";
+  name = 'MyClass';
   getName(this: MyClass) {
     return this.name;
   }
