@@ -9,6 +9,7 @@
     "removeComments": true,
     "sourceMap": true,
     "strictNullChecks": true,
-    "strictPropertyInitialization": true
+    "strictPropertyInitialization": true,
+    "target": "ES6"
   }
 }
