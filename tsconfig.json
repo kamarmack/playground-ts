@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "alwaysStrict": true,
+    "esModuleInterop": true,
     "module": "commonjs",
     "noEmitOnError": true,
     "noImplicitAny": true,

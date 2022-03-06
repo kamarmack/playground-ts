@@ -1,0 +1,28 @@
+Library file layout
+
+The layout of your declaration files should mirror the layout of the library.
+
+A library can consist of multiple modules, such as
+
+myLib
+  +---- index.js
+  +---- foo.js
+  +---- bar
+         +---- index.js
+         +---- baz.js
+
+These could be imported as
+
+var a = require("myLib");
+var b = require("myLib/foo");
+var c = require("myLib/bar");
+var d = require("myLib/bar/baz");
+
+Your declaration files should thus be
+
+@types/myLib
+  +---- index.d.ts
+  +---- foo.d.ts
+  +---- bar
+         +---- index.d.ts
+         +---- baz.d.ts
