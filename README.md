@@ -18,6 +18,10 @@ tsc
 
 #### Helpful flags
 
+###### declaration
+When true, emits `.d.ts` files. Use for libraries.
+###### emitDeclarationOnly
+Ensure that `.d.ts` files are created by tsc, but not .js files. Use when you want another transpiler (e.g. babel) to emit .js files.
 ###### esModuleInterop
 
 By default (with esModuleInterop `false`) TypeScript treats CommonJS/AMD/UMD modules similar to ES6 modules.
@@ -35,6 +39,8 @@ To fix these errors turn the esModuleInterop flag on.
 - ES6 default import `import moment from "moment"`
 - CommonJS default import `const moment = require("moment").default`
 
+###### isolatedModules
+Ensures that Babel can safely transpile files in the TypeScript project
 ###### moduleResolution
 Values: `'node' | 'classic'`
 `node` option checks node_modules folders
